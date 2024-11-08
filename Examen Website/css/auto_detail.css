@@ -1,0 +1,57 @@
+.thumbnail-container img {
+    width: 60px; /* Maak de thumbnails smaller */
+    height: 45px; /* Pas de hoogte van de thumbnails aan */
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.thumbnail-container img.active {
+    border-color: yellow;
+}
+
+.thumbnail-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Voeg wat ruimte tussen de thumbnails toe */
+    margin-top: 15px;
+}
+
+.car-images {
+    margin-bottom: 30px; /* Geef wat extra ruimte onder de carrousel */
+}
+
+
+.spec-box {
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.spec-item {
+    font-weight: bold;
+}
+
+.spec-value {
+    font-weight: normal;
+}
+
+.spec-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.spec-grid .spec-box {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
